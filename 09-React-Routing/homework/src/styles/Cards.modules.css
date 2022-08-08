@@ -1,0 +1,26 @@
+.cardsContainer {
+  display: flex;
+}
+
+.imgNotCities {
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  width: 100%;
+  height: 450px;
+}
+.paraphNotCities {
+  font-size: 24px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.containerimgNotCities {
+  margin: auto;
+  width: 40%;
+}
+@media (max-width: 675px) {
+  .containerimgNotCities {
+    width: 100%;
+  }
+  .imgNotCities {
+    height: 350px;
+  }
+}

@@ -1,0 +1,29 @@
+.containerCard {
+  display: flex;
+  flex-direction: column;
+  padding: 6px;
+  margin: 0 8px;
+  width: 300px;
+  height: auto;
+  border: solid 2px rgba(109, 108, 108, 0.164);
+  border-color: rgb(99, 158, 11);
+}
+
+.containerCard button {
+  align-self: flex-end;
+  background-color: rgb(188, 45, 45);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  width: 30px;
+}
+.containerCard button:hover {
+  background-color: rgb(236, 15, 15);
+}
+.containerIformation {
+  display: flex;
+  justify-content: space-around;
+}
+.containerIformation p span {
+  display: block;
+}

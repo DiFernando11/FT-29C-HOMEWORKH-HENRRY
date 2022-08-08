@@ -1,0 +1,20 @@
+.inputCitys {
+    border-radius: 8px;
+    padding: 4px 8px ;
+    border-color: green;
+  }
+  .addCitys {
+    border-radius: 6px;
+    margin-left: 12px;
+    border-color: green;
+    color: green;
+    background-color: rgba(0, 0, 0, 0.215);
+  }
+  .addCitys:hover{
+      width: 76px;
+      height: 36px;
+  }
+  .titleAddCitys{
+      margin-bottom: 16px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }

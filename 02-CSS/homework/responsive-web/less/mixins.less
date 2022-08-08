@@ -1,0 +1,22 @@
+// Mixins acá
+.flex(@direction: row, @justify: center, @align: center) {
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.imgBorder(@radius: 20px) {
+    border-radius: @radius;
+}
+
+.mixinButton(@backGround: #23293B, @color: white, @fontWeight: bold, @radius: 6px, @padding: 6px, @border: none, @cursor: pointer) {
+    background-color: @backGround;
+    color: @color;
+    font-weight: @fontWeight;
+    border-radius: @radius;
+    padding: @padding;
+    border: @border;
+    cursor: pointer;
+
+}

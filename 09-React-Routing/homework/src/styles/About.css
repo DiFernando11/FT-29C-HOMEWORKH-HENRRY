@@ -1,0 +1,25 @@
+.mainPageAbout .imagePageAboutWeatherApp {
+  width: 100px;
+  height: 100px;
+  margin: 16px;
+}
+.mainPageAbout h4 {
+  margin-top: 50px;
+}
+.mainPageAbout .parraphPrincipal {
+  display: flex;
+  margin: auto;
+  max-width: 700px;
+}
+.mainPageAbout ul{
+    display: flex;
+    justify-content: center;
+}
+.mainPageAbout ul li{
+    list-style: none;
+    padding: 16px;
+}
+.mainPageAbout ul img{
+    width: 50px;
+    height: 50px;
+}

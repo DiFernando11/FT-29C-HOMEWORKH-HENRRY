@@ -1,0 +1,14 @@
+html {
+  background-color: rgba(0, 0, 0, 0.813);
+  min-height: 100%;
+  position: relative;
+}
+h1,
+h2,
+h3,
+p,
+span,
+li,
+h4 {
+  color: white;
+}

@@ -1,0 +1,46 @@
+.barNavigation {
+  width: 100%;
+  border-bottom: 2px solid rgba(54, 52, 52, 0.546);
+  display: flex;
+  padding: 16px 8px 0px 24px;
+}
+.containerHeaderNav {
+  display: flex;
+  margin: auto 0;
+  padding: 6px;
+}
+.containerHeaderNav li:first-child {
+  color: white;
+  font-size: 16px;
+  margin-right: 32px;
+}
+.containerHeaderNav li:nth-child(2) {
+  color: white;
+  font-size: 16px;
+  margin-right: 32px;
+}
+
+.containerHeaderNav li {
+  margin-right: 10px;
+  list-style: none;
+  color: white;
+}
+.containerHeaderNav a {
+  color: white;
+}
+.containerHeaderNav li i {
+  margin: auto 4px;
+}
+
+.containerSearchBar {
+  margin: auto 10px auto auto;
+}
+
+@media (max-width: 675px) {
+  .containerHeaderNav .deleteItemNavMobile {
+    display: none;
+  }
+  .containerHeaderNav li {
+    margin-left: 16px;
+  }
+}

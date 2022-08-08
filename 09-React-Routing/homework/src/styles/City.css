@@ -1,0 +1,28 @@
+.mainPageCityInformation img {
+  filter: brightness(1.1);
+  mix-blend-mode: multiply;
+  width: 350px;
+  height: 320px;
+}
+.containerCardMoreIformation {
+  max-width: 300px;
+  border: 1px solid white;
+  margin: auto;
+}
+.containerCardMoreIformation ul {
+  padding: 0;
+}
+.containerCardMoreIformation ul li {
+  list-style: none;
+}
+
+.loading {
+  text-transform: uppercase;
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 80pt;
+  height: 100px;
+  line-height: 80px;
+  color: rgba(243, 235, 235, 0.998);
+}
+
