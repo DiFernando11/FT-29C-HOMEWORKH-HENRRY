@@ -3,6 +3,9 @@ html {
   min-height: 100%;
   position: relative;
 }
+body{
+  margin-bottom: 60px;
+}
 h1,
 h2,
 h3,

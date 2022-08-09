@@ -26,7 +26,7 @@ export default function Cards({ cities, onClose }) {
     return (
       <>
         <p className="paraphNotCities">
-          !Lo sentimos, No has Agregado una ciudad
+          !Lo sentimos, No has Agregado una ciudad!
         </p>
         ;
         <figure className="containerimgNotCities">

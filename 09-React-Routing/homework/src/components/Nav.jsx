@@ -2,23 +2,25 @@ import React from "react";
 import Logo from "../logoHenry.png";
 import SearchBar from "./SearchBar.jsx";
 import "../styles/Nav.css";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Nav({ onSearch }) {
   return (
     <nav className="barNavigation">
-      <Link to="/">
+      <NavLink exact to="/" activeClassName="imageHomeLogoHenrry">
         <img src={Logo} alt="logo Henrry" />
-      </Link>
-      <Link to="/">
+      </NavLink>
+  
         <ul className="containerHeaderNav">
           <li className="deleteItemNavMobile">Henrry</li>
-          <li className="deleteItemNavMobile">Weather App -</li>
-          <Link to="/about">
+          <NavLink  exact to="/">
+          <li className="deleteItemNavMobile">Weather App </li>
+          </NavLink>
+          <NavLink exact to="/about"  >
             <li>About</li>
-          </Link>
+          </NavLink>
         </ul>
-      </Link>
+   
 
       <div className="containerSearchBar">
         <SearchBar onSearch={onSearch} />

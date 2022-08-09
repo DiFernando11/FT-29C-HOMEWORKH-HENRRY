@@ -11,9 +11,10 @@ function About() {
       <h2>Single Aplicattion</h2>
       <h4>Information :</h4>
       <p className="parraphPrincipal">
-        Web application, in which you can search for your city or many others
-        and consult the current weather check the current weather, you can move
-        through the different sections of the page. sections of the page.
+        Web application, where you can find the weather and much more
+        information about your city, or your favorite city, explore the
+        different sections of the page and tell us your experience, we can
+        improve thanks to your opinion.
       </p>
       <img
         className="imagePageAboutWeatherApp"

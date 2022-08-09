@@ -9,22 +9,13 @@
   margin: auto 0;
   padding: 6px;
 }
-.containerHeaderNav li:first-child {
+.containerHeaderNav li{
   color: white;
   font-size: 16px;
-  margin-right: 32px;
-}
-.containerHeaderNav li:nth-child(2) {
-  color: white;
-  font-size: 16px;
-  margin-right: 32px;
+  margin: 0 16px;
+  list-style: none;
 }
 
-.containerHeaderNav li {
-  margin-right: 10px;
-  list-style: none;
-  color: white;
-}
 .containerHeaderNav a {
   color: white;
 }
@@ -35,12 +26,23 @@
 .containerSearchBar {
   margin: auto 10px auto auto;
 }
+.active {
+  background-color: red;
+  height: 30px;
+  border-radius: 4px;
+  padding: 0;
+  margin: 0;
+}
 
 @media (max-width: 675px) {
-  .containerHeaderNav .deleteItemNavMobile {
-    display: none;
+  .containerHeaderNav {
+    margin: 12px 0;
+    display: flex;
+    justify-content: center;
   }
-  .containerHeaderNav li {
-    margin-left: 16px;
+  
+  .barNavigation {
+    display: block;
   }
+
 }
