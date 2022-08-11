@@ -10,7 +10,7 @@ function City({ city }) {
 
   return (
     <main className="mainPageCityInformation">
-        <h2 class="loading wave">{city.name}</h2>
+        <h2 className="loading wave">{city.name}</h2>
       <div className="containerCardMoreIformation">
         <ul>
           <li> Temperatura: {city.temp} °C</li>

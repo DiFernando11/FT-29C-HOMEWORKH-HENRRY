@@ -27,3 +27,7 @@
 .containerIformation p span {
   display: block;
 }
+.cardsHomePageStyle{
+  text-decoration: none;
+  color: green;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from "./Card";
-import "../styles/Cards.modules.css"
+import "../styles/Cards.modules.css";
 export default function Cards(props) {
   // acá va tu código
   // tip, podés usar un map

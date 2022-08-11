@@ -11,7 +11,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
+  margin: 4px 0;
+  padding: 0;
 }
 .footerPage ul li {
   margin: 4px 8px;

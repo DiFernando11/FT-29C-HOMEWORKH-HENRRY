@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/App-Weater-Api/static/css/main.e2259377.css",
+    "main.js": "/App-Weater-Api/static/js/main.a194bc13.js",
+    "static/media/logoReact.png": "/App-Weater-Api/static/media/logoReact.a544fd8cf64d82898e91.png",
+    "static/media/logoHtml.png": "/App-Weater-Api/static/media/logoHtml.5f77e90e11607bf9b3e1.png",
+    "index.html": "/App-Weater-Api/index.html",
+    "main.e2259377.css.map": "/App-Weater-Api/static/css/main.e2259377.css.map",
+    "main.a194bc13.js.map": "/App-Weater-Api/static/js/main.a194bc13.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2259377.css",
+    "static/js/main.a194bc13.js"
+  ]
+}

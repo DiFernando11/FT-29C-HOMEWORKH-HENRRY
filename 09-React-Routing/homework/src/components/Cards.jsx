@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 import "../styles/Cards.modules.css";
+import logoNube from "../img/nubellorando.webp";
 export default function Cards({ cities, onClose }) {
   // acá va tu código
   // tip, podés usar un map
@@ -30,11 +31,7 @@ export default function Cards({ cities, onClose }) {
         </p>
         ;
         <figure className="containerimgNotCities">
-          <img
-            className="imgNotCities"
-            src="https://previews.123rf.com/images/antimartina/antimartina1605/antimartina160500023/58384065-ilustraci%C3%B3n-vectorial-de-una-nube-de-lluvia-de-dibujos-animados-llorar.jpg"
-            alt=""
-          />
+          <img className="imgNotCities" src={logoNube} alt="not cities" />
         </figure>
       </>
     );

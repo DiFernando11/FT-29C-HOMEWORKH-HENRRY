@@ -3,12 +3,10 @@ import "../styles/Card.modules.css";
 import { Link } from "react-router-dom";
 
 export default function Card({ max, min, name, img, onClose, id }) {
-  // acá va tu código
-  //console.log(cardStyle , "emvop");
   return (
     <div className="containerCard">
       <button onClick={onClose}> X </button>
-      <Link to={`/${name}/${id}`}>
+      <Link to={`/${name}/${id}`}  style={{ textDecoration: 'none' }} >
         <h2>{name}</h2>
         <div className="containerIformation">
           <p>
