@@ -1,4 +1,4 @@
-# Redux OMDB APP
+d # Redux OMDB APP
 
 En este ejercicio vamos a crear una APP que utilice la API de [OMDB](http://www.omdbapi.com/). Vamos a crear nuestra app utilizando __REACT__ y __REDUX__.
 

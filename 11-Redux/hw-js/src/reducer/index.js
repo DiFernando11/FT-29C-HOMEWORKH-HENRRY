@@ -18,7 +18,6 @@ function contador(state = initialState, action) {
     state.contador % 2 === 0 ? state.contador += 1 : state.contador += 2;
     return state.contador;
   };
-
   switch (action.type) {
     case INCREMENTO:
       return { ...state, contador: state.contador + 1 };
